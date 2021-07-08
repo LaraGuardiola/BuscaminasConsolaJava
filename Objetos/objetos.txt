@@ -1,0 +1,31 @@
+11.1 Métodos y atributos
+Tal y como hemos aprendido en lecciones anteriores, los métodos se corresponden con el comportamiento de una clase, y los atributos (o propiedades) con su estructura.
+
+La encapsulación nos recomienda que el trato con los objetos sea siempre a través de métodos; y dado que la estructura interna de un objeto solamente la conoce el mismo, los atributos se deberían consultar o editar siempre a través de métodos.
+
+11.2 Propiedades o atributos
+Tienen la siguiente sintaxis genérica:
+
+modificadorDeAtributo tipoAtributo nombreAtributo;
+donde:
+
+modificadorDeAtributo puede ser private (casi siempre), protected, public o por defecto (es decir, que puede acceder las clases del mismo paquete).
+tipoAtributo puede ser un tipo primitivo (int, float, char, String) u otra clase.
+nombreAtributo debería estar escrito en notación camelCase y ser autodescriptivo.
+11.3 Métodos
+Tienen la siguiente sintaxis genérica:
+
+modificador[es]DeMetodo tipoRetorno nombreMedoto(tipo1 param1, tipo2, param2, ...){
+  //...
+}
+donde:
+
+modificador[es]DeMetodo puede ser, por un lado public (casi siempre), protected, private o por defecto (es decir, que puede acceder las clases del mismo paquete). Además, estos valores pueden ir acompañados de static, abstract, final, native, synchronized.
+tipoRetorno puede ser un tipo primitivo (int, float, char, String), otra clase o void (es decir, que no devuelve nada).
+nombreMetodo debería estar escrito en notación camelCase y ser autodescriptivo.
+Los parámetros recibidos, tipo1 param1, tipo2 param2, ... siguen las mismas indicaciones que tipoRetorno y nombreAtributo.
+11.3.1 Métodos getters/setters
+Son unos métodos especiales, pero sencillos, que nos permiten consultar cualquier atributo de una clase, así como asignarle un nuevo valor. Pueden autogenerarse con Eclipse.
+
+11.3.2 toString()
+Se trata de un método especial, que sirve para obtener, en un solo valor de tipo String, una representación de un objeto. Eclipse también incluye un asistente para generarlo, si nos fuera preciso.

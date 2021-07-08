@@ -1,0 +1,1 @@
+Hay una pequeña comprobacion de como funciona declarar una clase, metodo o variable como final dentro de el mismo ejercicio de entender abstract
