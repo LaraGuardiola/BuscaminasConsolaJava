@@ -26,23 +26,32 @@ public class Buscaminas {
     private static int bombCounter = 0;
     private static int positionsExplored = 0;
     public static void main(String[] args) {
+        intro();
         bombHasBeenPlanted();
         generateMap();
         checkPosition();
     }
 
+    private static void intro(){
+        System.out.println("************ BUSCAMINAS ************\n");
+    }
+
     private static void bombHasBeenPlanted(){
         
-        //Genera el mapa del ordenador en funcion de los ajustes globales
+        //Genera el mapa del ordenador en funcion de los ajustes globales / primero declara todo como inexplorado y luego coloca bombas al azar
 
         for(int i = 0; i < computerMap.length;i++){
             for(int j = 0; j < computerMap[0].length; j++){
                 computerMap[i][j] = unexplored;
             }
-            for(int z = 0; z < bombs; z++){
-                computerMap[randomNumber(size)][randomNumber(size)] = bomb;
-                bombCounter++;
-            }
+        }
+        plantTheBomb();
+    }
+
+    private static void plantTheBomb(){
+        for(int z = 0; z < bombs; z++){
+            computerMap[randomNumber(size)][randomNumber(size)] = bomb;
+            bombCounter++;
         }
     }
 
@@ -65,12 +74,12 @@ public class Buscaminas {
     private static void doPertinentQuestions(){
         for(;;) {
             sc = new Scanner(System.in);
-            System.out.println("Seleccione la fila:");
+            System.out.println("\nSeleccione la fila:");
             fila = sc.next();
-            System.out.println("Seleccione la columna:");
+            System.out.println("\nSeleccione la columna:");
             columna = sc.next();
             if (Integer.parseInt(fila) >= 0 && Integer.parseInt(fila) < size && Integer.parseInt(columna) >= 0 && Integer.parseInt(columna) < size) {
-                System.out.print("Coordenadas correctamente introducidas\n");
+                System.out.print("\nCoordenadas correctamente introducidas\n");
             }else{
                 System.out.println("Selecciona un número entre el 0 y el " + size);
                 continue;   //se salta la iteracion y vuelve a comenzar el bucle for vacio
@@ -96,19 +105,18 @@ public class Buscaminas {
         }
     }
 
-    private static void areYaWinningSon(){
-        if(positionsExplored == Math.pow(size, 2) - bombCounter){
-            System.out.println("Primera vez que ganas en tu vida al buscaminas");
-            System.exit(0);
-        }
-        
-    }
-
     //esta funcion stringParser es un overkill, ya que es posible parsear directamente en checkCoordinates(), pero me parece mas legible asi
 
     private static int stringParser(String str){
          int i = Integer.parseInt(str);
          return i;
+    }
+
+    private static void areYaWinningSon(){
+        if(positionsExplored == Math.pow(size, 2) - bombCounter){
+            System.out.println("Primera vez que ganas en tu vida al buscaminas");
+            System.exit(0);
+        }
     }
 
     private static void rerender(int row, int column) {
