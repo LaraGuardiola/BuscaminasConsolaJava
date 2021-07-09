@@ -9,7 +9,7 @@ public abstract class AbstractClass implements Interfaz {
     public abstract void saludo(String s); //metodo abstracto en clase abstracta, luego definida en su clase hijo AbstractClassSon
 
 
-    public AbstractClass() {
+    public AbstractClass() {        //Sobrecarga del constructor AbstractClass ya que se puede inicializar de 2 maneras
     }
 
     public AbstractClass(int a) {

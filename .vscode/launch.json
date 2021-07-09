@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Abstract.Main",
+            "projectName": "JAVA_a2f4744c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
+            "mainClass": "Argumentos.Principal",
+            "projectName": "JAVA_a2f4744c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayMultidimensional",
+            "request": "launch",
+            "mainClass": "Arrays.ArrayMultidimensional",
+            "projectName": "JAVA_a2f4744c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Matriz",
+            "request": "launch",
+            "mainClass": "Arrays.Matriz",
+            "projectName": "JAVA_a2f4744c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Buscaminas",
+            "request": "launch",
+            "mainClass": "Buscaminas.Buscaminas",
+            "projectName": "JAVA_a2f4744c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(1)",
+            "request": "launch",
+            "mainClass": "ClasesAnidadas.Main",
+            "projectName": "JAVA_a2f4744c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Equivale",
+            "request": "launch",
+            "mainClass": "Comparacion.Equivale",
+            "projectName": "JAVA_a2f4744c"
+        },
+        {
+            "type": "java",
+            "name": "Launch TiposDeDatos",
+            "request": "launch",
+            "mainClass": "DataTypes.TiposDeDatos",
+            "projectName": "JAVA_a2f4744c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(2)",
+            "request": "launch",
+            "mainClass": "Estructuras.Main",
+            "projectName": "JAVA_a2f4744c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(3)",
+            "request": "launch",
+            "mainClass": "Polimorfismo.Main",
+            "projectName": "JAVA_a2f4744c"
+        },
+        {
+            "type": "java",
+            "name": "Launch PruebaLlamadaFuncion",
+            "request": "launch",
+            "mainClass": "PruebaLlamadaFuncion",
+            "projectName": "JAVA_a2f4744c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cadenas",
+            "request": "launch",
+            "mainClass": "String.Cadenas",
+            "projectName": "JAVA_a2f4744c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Varargs",
+            "request": "launch",
+            "mainClass": "Varargs.Varargs",
+            "projectName": "JAVA_a2f4744c"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiClase",
+            "request": "launch",
+            "mainClass": "heritage.MiClase",
+            "projectName": "JAVA_a2f4744c"
+        }
+    ]
+}
