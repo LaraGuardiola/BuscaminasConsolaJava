@@ -18,7 +18,5 @@ public class Cadenas {
         System.out.println(nen.endsWith("Castefaa")); //devuelve false
         System.out.println(nen.startsWith("En un")); //devuelve true
         System.out.println(nen.contains("lugar de")); //devuelve true
-
-
     }
 }

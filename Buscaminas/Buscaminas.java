@@ -1,5 +1,6 @@
 package Buscaminas;
 
+import java.time.LocalDate;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -25,6 +26,7 @@ public class Buscaminas {
     private static String fila, columna;
     private static int bombCounter = 0;
     private static int positionsExplored = 0;
+
     public static void main(String[] args) {
         intro();
         bombHasBeenPlanted();

@@ -1,4 +1,5 @@
 package DataTypes;
+@SuppressWarnings("unused")
 
 public class TiposDeDatos {
     public static void main(String[] args) {
