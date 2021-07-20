@@ -10,6 +10,7 @@ public class Matriz {
             4,5,6,
             7,8,9,10
         };
+        int[] miArray3 = new int[] {1,2,3,4,5};
         //ASIGNACION DE VALORES A LA ARRAY
 
         miArray[0] = 1;

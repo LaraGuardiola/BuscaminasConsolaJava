@@ -1,9 +1,11 @@
 package InterfazComparable;
 
-import java.util.*;
+
+import java.util.Comparator;
 
 
-public class Persona implements Comparable<Persona>{ //reaprovecho clase Persona implementando Comparable
+
+public class Persona implements Comparator<Persona>{ //? Por qué no se implementa Comparable. teoria: no tiene variables que sigan el orden natural como los numeros? 
 
     private String nombre;
     private String apellidos;
@@ -54,8 +56,11 @@ public class Persona implements Comparable<Persona>{ //reaprovecho clase Persona
             "}";
     }
 
-    
-    public int compareTo(Persona o) {
-        return edad.compareTo(getEdad());
+  
+
+    @Override
+    public int compare(Persona o1, Persona o2) {
+        // TODO Auto-generated method stub
+        return 0;
     }
 }
