@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class OperacionesFiltrado {
+public class C_OperacionesFiltrado {
 	
 	public static void main(String[] args) {
 		

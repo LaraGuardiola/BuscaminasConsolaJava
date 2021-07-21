@@ -5,3 +5,15 @@
 /ForEach.class
 /StreamForEach.class
 /OperacionesBusqueda.class
+/MetodoReduccion.class
+/Map_FlapMap.class
+/A_DeclaracionStream.class
+/B_OperacionesBusqueda.class
+/C_OperacionesFiltrado.class
+/D_OperacionesMapeo.class
+/E_StreamForEach.class
+/F_MetodoReduccion.class
+/G_Map_FlapMap.class
+/G_Map_FlapMap$Persona.class
+/G_Map_FlapMap$Viaje.class
+/H_ClaseCollector.class

@@ -6,7 +6,7 @@ import java.util.stream.*;
 
 @SuppressWarnings("unused")
 
-public class DeclaracionStream {
+public class A_DeclaracionStream {
 
 	public static void main(String[] args) {
 
