@@ -1,4 +1,4 @@
-package Java_I.O_NIO2;
+package Java_I.O_NIO2.A_FlujosSalida;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
@@ -17,7 +17,7 @@ public class C_ByteArrayOutputStream {
 		
 		try {
 			baos = new ByteArrayOutputStream();
-			baos.write(buffer);
+			baos.write(buffer);//escribe en bytes
 			
 		}catch(FileNotFoundException e) {
 			e.printStackTrace();

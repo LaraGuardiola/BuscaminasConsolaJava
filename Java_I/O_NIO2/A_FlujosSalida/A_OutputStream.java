@@ -1,4 +1,4 @@
-package Java_I.O_NIO2;
+package Java_I.O_NIO2.A_FlujosSalida;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -18,7 +18,7 @@ public class A_OutputStream {
 		try {
 			fOut = new FileOutputStream("primer.dat");
 			for(int i=0; i < 100; i++) {
-				fOut.write(i);
+				fOut.write(i); //escribe en bytes
 			}
 		}catch(FileNotFoundException e){
 			e.printStackTrace();

@@ -1,4 +1,4 @@
-package Java_I.O_NIO2;
+package Java_I.O_NIO2.A_FlujosSalida;
 
 import java.io.BufferedOutputStream;
 import java.io.FileNotFoundException;
@@ -20,7 +20,7 @@ public class B_BufferedOutputStream {
 		
 		try {
 			bOut = new BufferedOutputStream(new FileOutputStream("buffered.dat")); //se tiene que montar sobre una instancia de FileOutputStream (hereda de esta)
-			bOut.write(buffer);
+			bOut.write(buffer);//escribe en bytes
 		}catch(FileNotFoundException e){
 			e.printStackTrace();
 		}catch(IOException e){
