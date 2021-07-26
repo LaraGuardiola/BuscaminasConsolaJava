@@ -1,0 +1,1 @@
+Probando la entrada de un flujo de bytes

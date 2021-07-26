@@ -13,10 +13,10 @@ public class Fechas {
 
         LocalDate hoy = LocalDate.now();
         int mes = hoy.getMonthValue();
-        int año = hoy.getYear();
+        int anio = hoy.getYear();
         int dia = hoy.getDayOfMonth();
 
-        System.out.printf("Dia: %d Mes: %d Año: %d \n",dia, mes, año);
+        System.out.printf("Dia: %d Mes: %d Año: %d \n",dia, mes, anio);
         System.out.println(hoy);
 
         //creación del objeto fechaDeterminada con una fecha definida por los argumentos que recibe el metodo of(year, month, day)
@@ -31,7 +31,7 @@ public class Fechas {
         LocalDate secondDate = LocalDate.of(2019, 7, 1);
 
         if(firstDate.equals(secondDate)){
-            System.out.printf("Dia: %d Mes: %d Año: %d son iguales a tu nacimiento \n",dia, mes, año);
+            System.out.printf("Dia: %d Mes: %d Año: %d son iguales a tu nacimiento \n",dia, mes, anio);
         }else{
             System.out.println("Son iguales!");
         }

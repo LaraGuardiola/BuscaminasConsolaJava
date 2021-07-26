@@ -1,4 +1,4 @@
-package Java_I.O_NIO2.A_FlujosSalida.ClaseFile;
+package Java_I.O_NIO2.C_ClaseFile;
 
 import java.io.File;
 import java.io.IOException;

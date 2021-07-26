@@ -1,4 +1,4 @@
-package Java_I.O_NIO2.ClasePath;
+package Java_I.O_NIO2.D_ClasePath;
 
 import java.nio.file.FileSystems;
 import java.nio.file.Path;
